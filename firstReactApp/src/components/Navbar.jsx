@@ -29,7 +29,12 @@ export default function Navbar() {
                 </svg>
               </label>
             </div>
-            <div className="flex-1 px-2 mx-2">React</div>
+            <div className="flex-1 px-2 mx-2 text-bold">
+              <Link to="/">
+                <span>React</span>
+                <span>Course</span>
+              </Link>
+            </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal">
                 {/* Navbar menu content here */}
@@ -37,7 +42,7 @@ export default function Navbar() {
                   <Link to="/first-page">First Page</Link>
                 </li>
                 <li>
-                  <a>Navbar Item 2</a>
+                  <Link to="/second-page">Second Page</Link>
                 </li>
               </ul>
             </div>
@@ -55,7 +60,7 @@ export default function Navbar() {
               <Link to="/first-page">First Page</Link>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <Link to="/second-page">Second Page</Link>
             </li>
           </ul>
         </div>

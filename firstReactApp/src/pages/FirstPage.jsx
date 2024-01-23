@@ -58,6 +58,28 @@ export default function FirstPage() {
           JSX - Which is basically just like HTML but we can add some JavaScript
           to it as well in curly braces.
         </p>
+        <h1 className="text-center text-3xl font-semibold uppercase mb-5 mt-5">
+          React
+        </h1>
+        <p className="mb-2">
+          React is a JavaScript library for building user interfaces.
+        </p>
+        <p className="mb-2">
+          Extremely popular || Declarative || Component-Based || State-Driven ||
+          JavaScript library for building user interfaces, which is created by
+          Facebook
+        </p>
+        <h1 className="text-center text-3xl font-semibold uppercase mb-5">
+          React is Declarative
+        </h1>
+        <p>
+          We describe how components look like and how they work using a
+          declarative syntax called JSX. Declarative telling React what a
+          component should look like, based on current data/state. React is
+          abstraction away from DOM: we never touch the DOM. JSX: a syntax that
+          combines HTML, CSS, JavaScript as well as referencing other
+          components.
+        </p>
       </div>
     </div>
   );
